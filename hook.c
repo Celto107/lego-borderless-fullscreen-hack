@@ -11,8 +11,8 @@ BOOL CALLBACK checkWindow(HWND hWnd, LPARAM lParam) {
     */
 
 	char prefix[] = "LEGO";
-	char suffix[] = "Batman";
-	size_t extra_count[] = 3; /* " ", "®", "™" */
+	char suffix[] = "Star Wars: The Complete Saga";
+	size_t extra_count[] = 21; /* " ", "®", "™" */
 
 	size_t length = sizeof(prefix) + sizeof(suffix) + extra_count;
 
@@ -213,3 +213,4 @@ void LoadRealBink() {
     LOAD_FUNC(BinkSetSoundSystem, _BinkSetSoundSystem@8)
     LOAD_FUNC(BinkOpenDirectSound, _BinkOpenDirectSound@4)
 }
+
