@@ -1,5 +1,5 @@
-# lego-batman-borderless-fullscreen-hack
-A mod ("hack") for Lego Batman that allows you to run the game in borderless fulscreen 
+# lego-borderless-fullscreen-hack
+A mod ("hack") originally for Lego Batman that allows you to run the game in borderless fulscreen 
 
 This can be used to fix a bug inwhich cutscenes will freeze for few muniets when they start. This bug seems to be caused by Lego Batman's exlusive fullscreen mode.
 
@@ -28,4 +28,5 @@ Once you install MSVC (x86), run the Native Tools Command Line and run these ins
 ```sh
 cd <this directory>
 build.bat 
+
 ```
